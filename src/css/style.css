@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+.main-header{
+    margin-left:0.5em !important;
+    margin-top:1em !important;
+    color:red !important;
+}
+.video-section{
+    display:flex;
+}
+
+.video-detail{
+    height:100%;
+    width:90%;
+    margin-right: 2em;
+}
+
+.video-list{
+}
+
+.video-item{
+    display:flex;
+    margin-bottom:2em;
+    cursor: pointer;
+}
+
+.video-item img{
+    border:1px solid;
+    max-width:170px;
+}
+.video-item p{
+    margin-top:1em;
+    margin-left:1em;
+    color:black;
+}
+
+.video-item p:hover{
+    font-size: 14px;
+    text-decoration: underline;
+}
